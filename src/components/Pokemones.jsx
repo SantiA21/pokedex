@@ -90,7 +90,7 @@ const Pokemones = () => {
     >
       <div
         name="pokemones"
-        className="flex bg-[#Ee832a] h-full w-full flex-col"
+        className="flex bg-[#dbdbdb] h-full w-full flex-col"
       >
         <Navbar />
         <Searchbar onSearch={onSearch} />
@@ -109,7 +109,7 @@ const Pokemones = () => {
         )}
         <div>
           <Link to="/">
-            <button className="flex items-center px-6 py-1 my-1 text-[white] rounded-lg border-4 border-[white] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]">
+            <button className="flex items-center px-6 py-1 my-1 text-[red] rounded-lg border-4 border-[red] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]">
               Volver
             </button>
           </Link>

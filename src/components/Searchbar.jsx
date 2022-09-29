@@ -24,7 +24,7 @@ const Searchbar = (props) => {
       />
 
       <button
-        className="p-2 rounded-lg border-4 text-[white] border-[white] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]"
+        className="p-2 rounded-lg border-4 text-[red] border-[red] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]"
         onClick={onClick}
       >
         Buscar

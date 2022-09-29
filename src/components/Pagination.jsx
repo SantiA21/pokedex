@@ -7,7 +7,7 @@ const Pagination = (props) => {
     <div className="flex flex-row items-center">
       <button onClick={onLeftClick}>
         <div>
-          <GoChevronLeft className="text-[35px] border-2 rounded-lg hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white] " />
+          <GoChevronLeft className="text-[35px] text-[red] border-[red] border-2 rounded-lg hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white] " />
         </div>
       </button>
       <div className="mx-4">
@@ -15,7 +15,7 @@ const Pagination = (props) => {
       </div>
       <button onClick={onRightClick}>
         <div className="">
-          <GoChevronRight className="text-[35px] border-2 rounded-lg hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white] " />
+          <GoChevronRight className="text-[35px] text-[red] border-[red] border-2 rounded-lg hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white] " />
         </div>
       </button>
     </div>
