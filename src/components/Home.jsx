@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="flex justify-center items-center bg-[#Ee832a] h-screen w-full flex-col"
+      className="flex justify-center items-center bg-[#dbdbdb] h-screen w-full flex-col"
     >
       <img
         className="w-[300px]"
@@ -18,7 +18,7 @@ const Home = () => {
         <img className="w-[350px]" src={Logo} alt="Logo" />
         <div className="mt-9 flex justify-center items-center">
           <Link to="/pokemones">
-            <button className="flex items-center px-6 py-1 my-1 rounded-lg border-4 border-[white] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]">
+            <button className="flex items-center px-6 py-1 my-1 rounded-lg border-4 text-[red] border-[red] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]">
               Iniciar
               <span>
                 <HiArrowNarrowRight className="" />
