@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/inicio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/pokemones" element={<Pokemones />} />
       </Routes>
     </div>
