@@ -108,7 +108,7 @@ const Pokemones = () => {
           />
         )}
         <div>
-          <Link to="/inicio">
+          <Link to="/">
             <button className="flex items-center px-6 py-1 my-1 text-[white] rounded-lg border-4 border-[white] hover:bg-[#439ee2] hover:border-[#439ee2] hover:text-[white]">
               Volver
             </button>
